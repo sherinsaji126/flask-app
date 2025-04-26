@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'sherindockerimage'
+        DOCKER_IMAGE = 'sherinsaji126/sherin_test_repo'
         DOCKER_HUB_CREDENTIALS = 'dockerhub-login'
     }
 
