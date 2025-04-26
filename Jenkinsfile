@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = 'sherinsaji126/sherin_test_repo'
-        DOCKER_HUB_CREDENTIALS = 'dockerhub-login'
+        DOCKER_HUB_CREDENTIALS = 'Mydockerhub'
     }
 
     stages {
